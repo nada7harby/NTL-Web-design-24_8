@@ -1,0 +1,53 @@
+div {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  width: 40%;
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  /* display: none; */
+  /* visibility: hidden; */
+  opacity: 0;
+  
+}
+.highlight{
+  writing-mode: vertical-rl;
+  height: 500px;
+
+}
+table
+{
+  width: 80%;
+  font-size: 20px;
+  margin: 20px 10px;
+  border-collapse: collapse;
+}
+thead{
+  background-color: blueviolet;
+  color: aliceblue;
+  
+}
+thead th{
+  border: none;
+  border-bottom: 4px solid rgb(77, 6, 76);
+    text-decoration:wavy underline rgb(24, 3, 32)  ;
+
+}
+tfoot{
+    background-color: rgba(137, 43, 226, 0.348);
+  color: rgb(105, 105, 105);
+  text-align: center;
+
+}
+tbody tr{
+/* border: none; */
+border-bottom: 2px solid rgb(58, 7, 105);
+}
+tbody td{
+  padding: 5px 10px ;
+  text-transform:capitalize ;
+  text-decoration:wavy underline rgb(191, 0, 255)  ;
+}
