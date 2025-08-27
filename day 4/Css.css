@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+header {
+  padding: 20px;
+  background-color: rgb(5, 34, 104);
+  color: aliceblue;
+}
+header span {
+  width: 50px;
+  font-size: 20px;
+}
+header nav {
+  display: inline-block;
+  width: 90%;
+  text-align: end;
+}
+header li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+main {
+  background-color: rgb(213, 213, 213);
+  padding: 0 40px;
+}
+.child1 {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.child1 h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.box {
+  display: inline-block;
+  background-color: rgba(18, 156, 156, 0.349);
+  margin: 0 20px;
+  width: 30%;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+.box h3 {
+  margin: 20px 0 10px 0;
+  font-size: 40px;
+  color: rgb(15, 112, 132);
+}
+.box img {
+  border-radius: 20px;
+}
+.box p {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.child2 {
+  background-color: rgb(12, 53, 53);
+  padding: 25px;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.child2 div {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+.child2 .first {
+  padding: 20px;
+}
+.child2 .first h1 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+.child2 .first p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.first ul {
+  list-style: none;
+  margin: 15px 0;
+}
+.first li {
+  margin: 20px 0;
+  font-size: 30px;
+  padding: 15px 20px;
+  background-color: rgb(24, 95, 95);
+  border-radius: 15px;
+}
+.second img{
+               border-radius: 20px;
+}

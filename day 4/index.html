@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">username</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Nada Harby"
+          required
+          minlength="5"
+          maxlength="6"
+          id="name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="pass"> password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="********"
+          required
+          minlength="5"
+          maxlength="10"
+          id="pass"
+        />
+      </div>
+      <br />
+      <label for="email">email</label>
+      <input type="email" name="email" /><br />
+      <label for=""> age</label>
+      <input type="number" name="age" /><br />
+
+      <input type="checkbox" value="reading" name="hobbies" id="check" />
+      <label for="check">reading</label>
+      <input type="checkbox" id="check2" name="hobbies" />
+      <label for="check2">reading</label>
+      <input type="checkbox" id="check3" name="hobbies" />
+      <label for="check3">reading</label>
+
+      <br />
+      <input type="radio" name="type" value="femaleeeee" id="r2" />
+      <label for="r2">Female</label>
+      <input type="radio" name="type" value="male" id="r1" />
+      <label for="r1">male</label> <br />
+      <input type="file" />
+      <input type="date" />
+      <input type="time" />
+      <input type="range" min="0" max="100" step="30" name="" />
+      <input type="color" />
+      <br />
+      <label for="essaage">message</label><br />
+      <textarea
+        name="message"
+        id="essaage"
+        rows="20"
+        cols="20"
+        minlength=""
+      ></textarea>
+      <br />
+<label for="name">name</label>
+      <select name="names" id="name">
+        <option value="Nada">Nada</option>
+        <option value="Moahmed">Moahmed</option>
+        <option value="Ahmed">Ahmed</option>
+        <option value="Noha">Noha</option>
+      </select>
+
+      <br /><input type="submit" />
+
+      <input type="reset" />
+      <button type="reset">send</button>
+    </form>
+  </body>
+</html>
