@@ -1,0 +1,212 @@
+body {
+  /* background: linear-gradient(to bottom, rgb(8, 15, 82), rgb(73, 175, 209)); */
+  height: 400vh;
+}
+
+.child1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(226, 15, 229);
+  border-radius: 10px;
+
+  /* position: fixed;
+  bottom: 10px;
+  right: 45%;
+  z-index: 100; */
+  /* position: sticky; */
+  top: 0px;
+  z-index: 100;
+}
+
+.parent {
+  padding: 80px 10px;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(73, 175, 209);
+}
+p {
+  color: rgb(2, 42, 77);
+  position: relative;
+  background-color: blueviolet;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.child1:hover {
+  background-color: rgb(113, 4, 61);
+  width: 300px;
+  height: 300px;
+}
+
+.check:checked {
+  accent-color: rgb(99, 5, 87);
+  width: 30px;
+}
+
+a {
+  color: beige;
+}
+a:visited {
+  color: red;
+}
+input:disabled {
+  border: 4px double red;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 154, 0));
+}
+
+input:disabled:hover {
+  background: linear-gradient(to right, rgb(16, 16, 9), rgb(255, 0, 128));
+}
+a:visited:hover {
+  color: rgb(89, 89, 36);
+}
+input {
+  outline: none;
+  margin: 20px;
+  padding: 10px;
+}
+input:hover {
+  background-color: rgb(22, 175, 124);
+  border: 4px solid red;
+}
+
+input:focus {
+  border: 4px dashed red;
+  background-color: blueviolet;
+}
+input:focus:hover {
+  background-color: salmon;
+  border: none;
+}
+
+main :first-child {
+  background-color: rgb(10, 138, 85);
+  padding: 20px;
+  width: 80%;
+}
+main :last-child {
+  background-color: rgb(138, 50, 10);
+  padding: 20px;
+  width: 80%;
+}
+main :nth-child(even) {
+  background-color: crimson;
+}
+main :nth-child(odd) {
+  background-color: rgb(36, 65, 139);
+}
+
+.child3::before {
+  content: "";
+  width: 40px;
+  height: 20px;
+  background-color: rgb(73, 73, 16);
+  position: absolute;
+
+  border-top-left-radius: 10px;
+}
+
+.child3::after {
+  content: "";
+  width: 40px;
+  height: 20px;
+  background-color: rgb(73, 73, 16);
+  position: absolute;
+
+  border-top-left-radius: 10px;
+}
+.head {
+  background-color: blueviolet !important;
+  position: relative;
+  padding: 20px;
+}
+.head::before {
+  content: "";
+  width: 20%;
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+}
+.child6 {
+  position: relative;
+  width: 70%;
+  transition-duration: 3s;
+  transition-delay: 4s;
+}
+.child6:hover {
+  background-color: blueviolet;
+  width: 50%;
+  padding: 30px;
+  font-size: 40px;
+}
+.child6::after {
+  content: "ss";
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 20px;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+.child6::first-line {
+  color: rgb(251, 251, 251);
+  background-color: blue;
+  padding: 20px;
+}
+.child6::first-letter {
+  font-size: 80px;
+  color: rgb(80, 14, 98);
+}
+::selection {
+  background-color: rgb(31, 76, 7);
+  color: aliceblue;
+}
+
+.headinN {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  transition: .5s;
+}
+.headinN::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: rgb(80, 14, 98);
+  bottom: 0;
+  left: 42%;
+  transition: .5s;
+}
+
+.headinN:hover{
+  background-color: antiquewhite;
+}
+.headinN:hover::before{
+  background-color: rgb(93, 93, 212);
+  width: 70px;
+}
+.line{
+  width: 70px;
+  height: 7px;
+  background-color: brown;
+
+  border-radius: 10px;
+  position: relative;
+  left: 350px;
+}
