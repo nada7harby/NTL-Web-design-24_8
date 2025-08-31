@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+header {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  align-items: center;
+  box-shadow: 1px 1px 20px 3px gray;
+}
+header span {
+  font-weight: 800;
+  font-size: 35px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  column-gap: 20px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+}
+header a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(166, 23, 222);
+  left: 0;
+  bottom: -5px;
+  transition: all 0.3s;
+}
+header a:hover::after {
+  width: 100%;
+}
+header a:hover {
+  color: rgb(72, 72, 224);
+}
+.hero {
+  padding: 50px 20px;
+  display: flex;
+  background-color: rgba(129, 173, 223, 0.466);
+}
+.hero .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  background: linear-gradient(to right, #27317e 0%, #bc0d45 100%);
+  color: transparent;
+  background-clip: text;
+}
+.hero p {
+  color: rgb(61, 60, 60);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  display: flex;
+  gap: 20px;
+}
+.hero button {
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px solid rgb(13, 24, 90);
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.hero button:nth-child(1) {
+  background-color: rgb(13, 24, 90);
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+.hero button:nth-child(2) {
+  background-color: transparent;
+  color: rgb(13, 24, 90);
+}
+
+.hero button:nth-child(1):hover {
+  bottom: 5px;
+  /* box-shadow: 1px 1px 20px 5px gray; */
+}
+.hero button:nth-child(2):hover {
+  color: aliceblue;
+  background-color: rgb(13, 24, 90);
+}
+
+.Services {
+  padding: 60px 20px;
+  background-color: rgb(255, 255, 255);
+}
+.Services h1 {
+  font-size: 50px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.Services h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  background: linear-gradient(to right, #27317e 0%, #bc0d45 100%);
+  width: 120px;
+  height: 7px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.Services h1:hover::after {
+  width: 150px;
+}
+.Services > p {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 22px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.container div {
+  width: 300px;
+  background-color: #bc0d45;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container div span {
+  font-size: 50px;
+}
+.container div h3 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+.container div p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.container div button {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container div::before {
+  content: "";
+  transition: 0.5s;
+  position: absolute;
+  width: 9px;
+  height: 0;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom, #117c77 0%, #a20dbc 100%);
+}
+
+.container div:hover::before {
+  height: 100%;
+}
