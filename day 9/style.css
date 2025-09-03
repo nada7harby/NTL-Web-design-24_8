@@ -1,0 +1,19 @@
+.child{
+  background-color: coral;
+  border: 2px solid rgb(85, 55, 18);
+}
+.navbar{
+  background-color: blueviolet !important;
+}
+.heading{
+  font-size: 40px;
+  background: linear-gradient(to right, #860b5b, #810711);
+  color: transparent;
+  background-clip: text;
+}
+.btnStart{
+  background-color: #860b5b;
+}
+.btnStart:hover{
+  background-color: #43062e;
+}
