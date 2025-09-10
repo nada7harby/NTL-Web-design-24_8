@@ -1,0 +1,21 @@
+.card {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container {
+  background-color: rgb(7, 77, 77);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+button {
+  padding: 15px;
+  font-size: 17px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+}
